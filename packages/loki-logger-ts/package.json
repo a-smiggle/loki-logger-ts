@@ -1,0 +1,27 @@
+{
+  "name": "loki-logger-ts",
+  "description": "Is a Grafana Loki Logger written in Typescript. It allows for the creation of a Grafana Loki Logging Client and easy parsing of messages and labels.",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "dev": "tsc -w",
+    "lint": "eslint \"src/**/*.ts*\""
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
