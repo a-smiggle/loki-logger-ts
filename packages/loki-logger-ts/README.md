@@ -12,7 +12,7 @@ More information about Loki can be found here.
 npm i loki-logger-ts
 # or
 # YARN
-yarn i loki-logger-ts
+yarn add loki-logger-ts
 # or
 #PNPM
 pnpm i loki-logger-ts
